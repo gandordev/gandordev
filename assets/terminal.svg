@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1100" height="820"
+     viewBox="0 0 1100 820"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">gandordev's developer terminal</title>
+  <desc id="desc">My own console? Wowie!</desc>
+
+  <defs>
+    <linearGradient id="bezel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#555b63"/>
+      <stop offset="1" stop-color="#292d33"/>
+    </linearGradient>
+
+    <linearGradient id="stand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#858b94"/>
+      <stop offset="1" stop-color="#555b63"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <!-- Background: transparent -->
+
+  <!-- Ground shadow -->
+  <ellipse cx="550" cy="797" rx="330" ry="12"
+           fill="#000000" opacity=".13" filter="url(#shadow)"/>
+
+  <!-- Monitor body -->
+  <rect x="92" y="25" width="916" height="640" rx="22"
+        fill="url(#bezel)" stroke="#171a1f" stroke-width="5"/>
+
+  <!-- Screen -->
+  <rect x="111" y="44" width="878" height="600" rx="9"
+        fill="#0b1220" stroke="#747b85" stroke-width="2"/>
+
+  <!-- Screen header -->
+  <rect x="113" y="46" width="874" height="64" rx="7"
+        fill="#151d2b"/>
+
+  <circle cx="145" cy="78" r="7" fill="#ff5f57"/>
+  <circle cx="171" cy="78" r="7" fill="#febc2e"/>
+  <circle cx="197" cy="78" r="7" fill="#28c840"/>
+
+  <text x="232" y="85"
+        fill="#aab6c8"
+        font-family="Consolas, 'Liberation Mono', monospace"
+        font-size="22">gabriel@madrid — Terminal</text>
+
+  <path d="M113 110 H987" stroke="#344154" stroke-width="1"/>
+
+  <!-- Terminal content -->
+  <g font-family="Consolas, 'Liberation Mono', monospace"
+     font-size="20">
+
+    <!-- whoami -->
+    <text x="145" y="153" fill="#5eead4">gabriel@madrid</text>
+    <text x="315" y="153" fill="#d7deea">:~$ </text>
+    <text x="370" y="153" fill="#93c5fd">whoami</text>
+
+    <text x="145" y="185" fill="#e5e7eb">
+      Backend developer working with Python focused on
+    </text>
+    <text x="145" y="215" fill="#e5e7eb">
+      APIs, system integration and data processes.
+    </text>
+
+    <!-- about.txt -->
+    <text x="145" y="267" fill="#5eead4">gabriel@madrid</text>
+    <text x="315" y="267" fill="#d7deea">:~$ </text>
+    <text x="370" y="267" fill="#93c5fd">cat about.txt</text>
+
+    <circle cx="157" cy="307" r="3.5" fill="#5eead4"/>
+    <text x="177" y="314" fill="#e5e7eb">Built APIs in Python (FastAPI) with async messaging (NATS)</text>
+
+    <circle cx="157" cy="345" r="3.5" fill="#5eead4"/>
+    <text x="177" y="352" fill="#e5e7eb">Worked on data extraction, validation and loading processes</text>
+
+    <circle cx="157" cy="383" r="3.5" fill="#5eead4"/>
+    <text x="177" y="390" fill="#e5e7eb">Migrated legacy C# processes to Python</text>
+
+    <circle cx="157" cy="421" r="3.5" fill="#5eead4"/>
+    <text x="177" y="428" fill="#e5e7eb">Built internal tools with Vue 3 and TypeScript</text>
+
+    <circle cx="157" cy="459" r="3.5" fill="#5eead4"/>
+    <text x="177" y="466" fill="#e5e7eb">Used LLMs inside automation flows</text>
+
+    <circle cx="157" cy="497" r="3.5" fill="#5eead4"/>
+    <text x="177" y="504" fill="#e5e7eb">Loves learning</text>
+
+    <circle cx="157" cy="535" r="3.5" fill="#5eead4"/>
+    <text x="177" y="542" fill="#e5e7eb">Free software enthusiast. I like building my own tools.</text>
+
+    <!-- status -->
+    <text x="145" y="590" fill="#5eead4">gabriel@madrid</text>
+    <text x="315" y="590" fill="#d7deea">:~$ </text>
+    <text x="370" y="590" fill="#93c5fd">status</text>
+
+    <text x="145" y="623" fill="#e5e7eb">Learning and searching</text>
+
+    <!-- Animated terminal cursor -->
+    <rect x="395" y="606" width="12" height="23"
+          fill="#5eead4" opacity="1">
+      <animate
+        attributeName="opacity"
+        values="1;.3;0;.3;1"
+        dur="1s"
+        repeatCount="indefinite"/>
+    </rect>
+
+  </g>
+
+  <!-- Power indicator -->
+  <circle cx="550" cy="655" r="3" fill="#5eead4" opacity=".9"/>
+
+  <!-- Monitor stand: behind the base, below the monitor -->
+  <path d="M475 665 H625 L650 740 H450 Z"
+        fill="url(#stand)" stroke="#4b5159" stroke-width="2"/>
+
+  <!-- Monitor base -->
+  <path d="M390 734 H710 L790 775 Q798 781 784 785 H316 Q302 781 310 775 Z"
+        fill="#737a83" stroke="#4b5159" stroke-width="2"/>
+
+  <path d="M320 778 H780"
+        stroke="#aeb4bc" stroke-width="2" opacity=".55"/>
+
+</svg>
