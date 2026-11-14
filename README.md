@@ -1,3 +1,9 @@
+<style>
+* {
+  font-family: Consolas, "Liberation Mono", monospace !important;
+}
+</style>
+
 <h1 align="center">Who is gandordev?</h1>
 
 <p align="center">
@@ -127,10 +133,3 @@ A lightweight web application for creating structured Steam game reviews and gen
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-ramos-lopez)
 [![GitHub](https://img.shields.io/badge/GitHub-gandordev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gandordev)
-
-
-<style>
-* { 
-  font-family: consolas
-}
-</style>
