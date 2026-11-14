@@ -6,7 +6,7 @@
 
 <p align="center">
   <img
-    src="./assets/terminal-monitor.svg"
+    src="./assets/terminal.svg"
     alt="gandordev's developer terminal"
     width="750"
   />
