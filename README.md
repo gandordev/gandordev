@@ -1,9 +1,3 @@
-<style>
-* {
-  font-family: Consolas, "Liberation Mono", monospace !important;
-}
-</style>
-
 <h1 align="center">Who is gandordev?</h1>
 
 <p align="center">
